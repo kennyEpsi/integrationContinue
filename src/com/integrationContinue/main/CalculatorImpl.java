@@ -10,7 +10,27 @@ public class CalculatorImpl implements Calculator {
 
     @Override
     public int divide(int a, int b) {
-        return 0;
+        if (b == 0) {
+            throw new ArithmeticException();
+        }
+        boolean resEstNegatif = false;
+        int res = 0;
+        if ( a < 0) {
+            resEstNegatif = !resEstNegatif;
+            a = -a;
+        }
+        if ( b < 0) {
+            resEstNegatif = !resEstNegatif;
+            b = -b;
+        }
+        while (a > 0) {
+            a = substract(a, b);
+            res++;
+        }
+        if (resEstNegatif) {
+            res = -res;
+        }
+        return res;
     }
 
     @Override

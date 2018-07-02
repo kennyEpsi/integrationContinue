@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="961e6318-20af-4c3a-b89a-a16f10031e61" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/integrationContinue/main/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/integrationContinue/main/CalculatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/integrationContinue/test/CalculatorImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Integration Continue - Git.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Integration Continue - Git.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/integrationContinue/main/CalculatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/integrationContinue/main/CalculatorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/integrationContinue/test/CalculatorImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/integrationContinue/test/CalculatorImplTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +20,7 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/integrationContinue/main/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -36,15 +33,11 @@
       <file leaf-file-name="CalculatorImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/integrationContinue/main/CalculatorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="385">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
               <folding>
                 <element signature="e#145#146#0" expanded="true" />
                 <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,16 +46,10 @@
       <file leaf-file-name="CalculatorImplTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/integrationContinue/test/CalculatorImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+            <state relative-caret-position="442">
+              <caret line="38" column="62" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#156#157#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,8 +61,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -110,6 +97,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,9 +134,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,7 +146,7 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -184,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorImplTest.testAdd">
+  <component name="RunManager" selected="JUnit.CalculatorImplTest.testDivide">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -224,6 +211,29 @@
       <option name="PACKAGE_NAME" value="com.integrationContinue.test" />
       <option name="MAIN_CLASS_NAME" value="com.integrationContinue.test.CalculatorImplTest" />
       <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CalculatorImplTest.testDivide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Integration Continue - Git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.integrationContinue.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.integrationContinue.test" />
+      <option name="MAIN_CLASS_NAME" value="com.integrationContinue.test.CalculatorImplTest" />
+      <option name="METHOD_NAME" value="testDivide" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -299,11 +309,13 @@
       <item itemvalue="JUnit.CalculatorImplTest" />
       <item itemvalue="JUnit.CalculatorImplTest.testMultiply" />
       <item itemvalue="JUnit.CalculatorImplTest.testAdd" />
+      <item itemvalue="JUnit.CalculatorImplTest.testDivide" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorImplTest.testAdd" />
+        <item itemvalue="JUnit.CalculatorImplTest.testDivide" />
         <item itemvalue="JUnit.CalculatorImplTest" />
+        <item itemvalue="JUnit.CalculatorImplTest.testAdd" />
         <item itemvalue="JUnit.CalculatorImplTest.testMultiply" />
       </list>
     </recent_temporary>
@@ -319,16 +331,11 @@
       <option name="presentableId" value="Default" />
       <updated>1528710503744</updated>
       <workItem from="1528710507886" duration="2354000" />
+      <workItem from="1530516508999" duration="1923000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorImplTest - 2018.06.11 at 12h 26m 53s.xml">
-      <configuration name="CalculatorImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorImplTest - 2018.06.11 at 12h 27m 09s.xml">
-      <configuration name="CalculatorImplTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalculatorImplTest_testMultiply - 2018.06.11 at 12h 27m 34s.xml">
       <configuration name="CalculatorImplTest.testMultiply" configurationId="JUnit" />
     </history-entry>
@@ -341,12 +348,31 @@
     <history-entry file="CalculatorImplTest_testAdd - 2018.06.11 at 12h 36m 48s.xml">
       <configuration name="CalculatorImplTest.testAdd" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CalculatorImplTest_testAdd - 2018.07.02 at 09h 55m 07s.xml">
+      <configuration name="CalculatorImplTest.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorImplTest_testAdd - 2018.07.02 at 10h 02m 27s.xml">
+      <configuration name="CalculatorImplTest.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorImplTest_testAdd - 2018.07.02 at 10h 02m 41s.xml">
+      <configuration name="CalculatorImplTest.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorImplTest - 2018.07.02 at 10h 02m 47s.xml">
+      <configuration name="CalculatorImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorImplTest - 2018.07.02 at 10h 03m 22s.xml">
+      <configuration name="CalculatorImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorImplTest_testDivide - 2018.07.02 at 10h 03m 33s.xml">
+      <configuration name="CalculatorImplTest.testDivide" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2354000" />
+    <option name="totallyTimeSpent" value="4277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -357,26 +383,26 @@
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="1" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32570806" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.25479743" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32570806" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32897604" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.12473348" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="right" id="Commander" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.25479743" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,8 +411,60 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/integrationContinue/main/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/integrationContinue/main/CalculatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/integrationContinue/test/CalculatorImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Integration Continue - Git.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/integrationContinue/main/testAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/integrationContinue/src/com/integrationContinue/test/CalculatorImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/integrationContinue/src/com/integrationContinue/main/CalculatorImpl.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/integrationContinue/main/Calculator.java">
@@ -398,31 +476,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/integrationContinue/main/CalculatorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="385">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
             <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/integrationContinue/test/CalculatorImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        <state relative-caret-position="442">
+          <caret line="38" column="62" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -492,6 +560,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Arquillian JUnit:Release</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
